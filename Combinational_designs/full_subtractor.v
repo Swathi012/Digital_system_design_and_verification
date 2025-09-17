@@ -1,3 +1,4 @@
+// Implamentation of Full subtractor using Half subtractor
 `include "half_subtractor.v"
 module full_subtractor(input a, input b, input c, output diff, output borrow);
 
