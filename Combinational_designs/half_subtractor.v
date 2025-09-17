@@ -1,3 +1,4 @@
+// Implementation of half subtractor
 module half_subtractor(input a, input b, output diff, output borrow);
 
 assign diff = a^b;
